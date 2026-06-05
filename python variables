@@ -1,0 +1,19 @@
+abstract class Animal{
+    public abstract void  animalsound();
+    public void sleep{
+        System.out.println("the animal is sleeped Zzzzz");
+    }
+}
+class pig extends Aanimal{
+    void animalsound(){
+        System.out.println("Animal has Sound")
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Animla mypig=new pig();
+		mypig.animalsound();
+		mypig.sleep();
+	}
+}
