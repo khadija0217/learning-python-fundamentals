@@ -1,0 +1,10 @@
+class dog:
+  def __init__(self,name,age):
+   self.name=name
+   self.age=age
+
+  def bark(self):
+      print("says Woof")
+ #Create an object
+d1=dog("budddy",3)
+d1.bark();
